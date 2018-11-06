@@ -202,7 +202,7 @@ body {
 #whybday {
   font-size: 11px;
   float: right;
-  margin-right: 90px;
+  margin-right: 80px;
   margin-bottom: 13px;
   margin-top: 0px;
   color: #496293;
@@ -210,4 +210,40 @@ body {
 #leday {
   width: 60px;
   height: 30px;
+}
+#lemonth {
+  width: 45px;
+  height: 30px;
+}
+#leyear {
+  width: 60px;
+  height: 30px;
+}
+.ale {
+  margin-top: 16px;
+  margin-right: 12px;
+}
+#terms {
+  font-size: 12px;
+  color: #999b98;
+}
+.blue {
+  color: #4569b2;
+}
+.signs {
+  width: 190px;
+  height: 37px;
+  background-color: #669f51;
+  font-size: 20px;
+  color: white;
+  border-radius: 3px;
+  border: 1px solid green;
+  margin-bottom: 10px;
+}
+
+#lastone {
+  font-size: 14px;
+}
+#aline hr {
+  color: gray;
 }
