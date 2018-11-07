@@ -6,30 +6,22 @@ body {
   margin: 0px;
 }
 .container {
-  height: 651px;
-  weight: 100%;
+  height: 665px;
+  width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
   background-color: #edf0f5;
 }
 .header {
-  /* grid-columns: 1 / end;
-  grid-row: 1/2; */
   display: flex;
   flex-direction: row;
   width: 100%;
   background-color: #3b5998;
-  position: fixed;
-  height: 85px;
+  /* position: fixed; */
+  height: 90px;
 }
 
-#button1 {
-  grid-column-start: 2;
-  grid-column-end: end;
-  grid-row-start: 6;
-  grid-row-end: 8;
-}
 #fb {
   padding-top: 28px;
   padding-left: 226px;
@@ -38,10 +30,6 @@ body {
   padding-right: 430px;
 }
 #form1 {
-  grid-column-start: 40;
-  grid-column-end: 42;
-  grid-row-start: 1;
-  grid-row-end: 3;
   padding-top: 14px;
   font-family: sans-serif;
   color: white;
@@ -50,10 +38,6 @@ body {
   width: 150px;
 }
 #form2 {
-  grid-column-start: 42;
-  grid-column-end: 43;
-  grid-row-start: 1;
-  grid-row-end: 3;
   padding-top: 13px;
   font-family: sans-serif;
   color: white;
@@ -70,9 +54,6 @@ body {
   width: 150px;
   margin: 0px;
 }
-/* #pass > p {
-    padding-bottom: 1px;
-  } */
 #form1 > p {
   margin-bottom: 0px;
   padding-top: 0px;
@@ -98,10 +79,6 @@ body {
 
 #submit1 {
   padding-top: 35px;
-  grid-column-start: 44;
-  grid-column-end: 45;
-  grid-row-start: 1;
-  grid-row-end: 3;
 }
 
 #submit1 > input {
@@ -131,14 +108,14 @@ body {
 }
 .ad {
   margin-left: 226px;
-  margin-top: 80px;
+  margin-top: 70px;
   width: 500px;
   height: 57px;
 }
 .ad h2 {
-  margin-top: 70px;
+  margin: 0px;
   font-size: 26px;
-  font-weight: 300;
+  font-weight: bold;
   margin-bottom: 30px;
 }
 .ad p {
@@ -164,12 +141,15 @@ body {
 }
 .form3 {
   margin-left: 90px;
-  margin-top: 100px;
+  margin-top: 25px;
   width: 400px;
 }
 .form3 > h2 {
   margin-top: 0px;
   margin-bottom: 10px;
+}
+.form3 > input {
+  padding-left: 7px;
 }
 #signup {
   font-size: 35px;
@@ -183,17 +163,18 @@ body {
   width: 193px;
   height: 40px;
   border-radius: 3px;
-  border: 2px solid lightgray;
+  border: 1px solid lightgray;
   font-size: 18px;
   color: lightgray;
   padding-right: 5px;
 }
+
 #mailbox {
   margin-top: 10px;
-  width: 394px;
+  width: 390px;
   height: 40px;
   border-radius: 3px;
-  border: 2px solid lightgray;
+  border: 1px solid lightgray;
   font-size: 18px;
 }
 #bday {
@@ -251,11 +232,75 @@ body {
   color: gray;
 }
 .footer {
-  margin-top: 651px;
+  width: 100%;
+  margin-top: 0px;
+  height: 190px;
 }
-.footer ul {
+.languages {
+  width: 100%;
+  height: 25px;
+}
+.languages > ul {
   display: flex;
   flex-direction: row;
+  list-style: none;
+  font-size: 12px;
+  margin-top: 47px;
+  margin-left: 228px;
+  padding-left: 0px;
+  width: auto;
+}
+#grayitem {
+  margin-right: 14px;
+  color: gray;
+}
+#lanitem {
+  margin-right: 14px;
+  color: #4466aa;
+}
+#lanitem:hover {
+  text-decoration: underline;
+}
+#dabutton > input {
+  width: 30px;
   height: 20px;
-  display: inline;
+  font-size: 40px;
+  align-items: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.alotofstuff > ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-size: 12px;
+  margin-bottom: 6px;
+  margin-top: 6px;
+  margin-left: 228px;
+  padding-left: 0px;
+}
+
+.items {
+  margin-right: 23px;
+  color: #4466aa;
+}
+.items:hover {
+  text-decoration: underline;
+}
+#daline {
+  width: 980px;
+  height: 3px;
+  padding-left: 225px;
+  margin: 0px;
+}
+#daline hr {
+  margin: 0px;
+  margin-top: 4px;
+}
+#lastfb {
+  font-size: 11px;
+  margin-left: 227px;
+  color: gray;
+  margin-top: 25px;
 }
